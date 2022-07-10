@@ -116,12 +116,9 @@
     margin: 90px;
     text-align: justify;
     width: 550px;
+    box-shadow: 5px 5px 5px gray;
 }
 
-
-.box1:hover{
-    
-}
 
 
 
