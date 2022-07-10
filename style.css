@@ -34,6 +34,13 @@
     font-size: 18px;
 }
 
+
+
+
+
+
+
+
 .home{
     display: flex;
     background-color: black;
@@ -75,30 +82,17 @@
     padding: 20px 60px;
 }
 
+
+
+
+
+
+
+
 .box{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
-}
-
-.box-icon img{
-    width: 70px;
-}
-
-.box1{
-    border: 1px solid black;
-    border-radius: 7px;
-    padding: 25px;
-    margin: 90px;
-    text-align: justify;
-}
-
-.box1:hover{
-    
-}
-
-.box-icon{
-    text-align: center;
 }
 
 .box-title{
@@ -107,9 +101,94 @@
     margin-top: 60px;
 }
 
+.box-icon > img{
+    width: 70px;
+}
+
+.box-icon{
+    text-align: center;
+}
+
+.box1{
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 25px;
+    margin: 90px;
+    text-align: justify;
+    width: 550px;
+}
+
+
+.box1:hover{
+    
+}
+
+
+
+
+
 .box-contant a{
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+.service{
+    display: flex;
+    justify-content: space-evenly;
+    height: 620px;
+    margin-bottom: 100px;
+}
+
+.service-title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+.service-box{
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 7px;
+    margin: 80px;
+    text-align: justify;
+    width: 580px;
+}
+
+.service-contant{
+    padding: 15px;
+}
+
+.service-image > img{
+    width: 350px;
+    border-radius: 5px;
+}
+
+.service-buttom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-buttom h3{
+   margin-top: 15px;
+   font-size: 30px;
+}
+
+.service-contant p{
+    color: red;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+
+
 
 
 
