@@ -75,6 +75,42 @@
     padding: 20px 60px;
 }
 
+.box{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.box-icon img{
+    width: 70px;
+}
+
+.box1{
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 25px;
+    margin: 90px;
+    text-align: justify;
+}
+
+.box1:hover{
+    
+}
+
+.box-icon{
+    text-align: center;
+}
+
+.box-title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+.box-contant a{
+    text-align: center;
+}
+
 
 
 
