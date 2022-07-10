@@ -135,6 +135,33 @@
 
 
 
+.workout-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("./images/shape/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    margin: 0 auto;
+    height: 200px;
+    width: 700px;
+    border-radius: 20px;
+}
+
+.workout-title{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 .service{
