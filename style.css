@@ -132,10 +132,78 @@
 
 
 
+.about-container{
+    background-color: rgb(23, 20, 20);
+    color: white;
+    height: 730px;
+}
+
+.about-container > h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+}
+
+.about{
+    display: flex;
+}
+
+.about-left > hr{
+    margin: 0 150px;
+}
+
+.about-right{
+    padding-right: 100px;
+}
+.about-right h1{
+    font-size: 40px;
+}
+.about-right p{
+    color: rgb(172, 173, 173);
+    font-size: 22px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.about-image{
+    display: flex;
+    margin: 30px;
+    padding: 50px;
+    margin-left: 80px;
+}
+
+.about-image img{
+    height: 500px;
+    padding-left: 40px;
+    width: 250px;
+    transform: skewY(-15deg);
+}
+
+.list-item{
+    font-size: 18px;
+    list-style: square;
+}
+
+.about-button{
+    margin: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    padding: 20px 45px;
+}
+
+
+
+
 
 
 
 .workout-container{
+    margin: 80px 0;
+}
+.workout{
     display: flex;
     justify-content: space-evenly;
     background-image: url("./images/shape/Group_33094_1.png");
