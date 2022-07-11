@@ -22,7 +22,7 @@
     list-style: none;
     cursor: pointer;
     margin: 5px;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
 }
 
 .menu-item li a:hover{
