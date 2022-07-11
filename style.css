@@ -266,6 +266,17 @@
     width: 580px;
 }
 
+.batch{
+    position: relative;
+}
+
+.batch-img{
+    width: 70px;
+    position: absolute;
+    top: -30px;
+    left: 300px;
+}
+
 .service-contant{
     padding: 15px;
 }
