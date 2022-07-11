@@ -2,6 +2,8 @@
     margin: 0;
 }
 
+/*header section*/
+
 .logo-title{
     font-size: 60px;
 }
@@ -33,12 +35,6 @@
     color: white;
     font-size: 18px;
 }
-
-
-
-
-
-
 
 
 .home{
@@ -83,18 +79,14 @@
 }
 
 .home-image img{
-    height: 600px;
-    width: 600px;
+    height: 570px;
+    width: 620px;
 }
 
 
+/*box-container section*/
 
-
-
-
-
-
-.box{
+.box-section{
     display: flex;
     justify-content: space-evenly;
     
@@ -114,28 +106,33 @@
     text-align: center;
 }
 
-.box1{
+.box{
     border: 1px solid black;
     border-radius: 7px;
     padding: 25px;
     margin: 90px;
-    text-align: justify;
     width: 550px;
     box-shadow: 5px 5px 5px gray;
 }
 
+.box-description{
+    text-align: justify;
+}
 
+.box:hover{
+    transition: .5s;
+    border-radius: 10px;
+    margin-top: -10px;
+    border: 1px solid rgb(226, 30, 30);
+}
 
-
-
-
-.box-contant a{
-    text-align: center;
+.box-link{
+    margin-left: 110px;
 }
 
 
 
-
+/*about-container section*/
 
 .about-container{
     background-color: rgb(23, 20, 20);
@@ -143,7 +140,7 @@
     height: 730px;
 }
 
-.about-container > h1{
+.about-title{
     font-size: 50px;
     text-align: center;
     padding: 30px;
@@ -160,7 +157,7 @@
 .about-right{
     padding-right: 100px;
 }
-.about-right h1{
+.about-right-title{
     font-size: 40px;
 }
 .about-right p{
@@ -203,10 +200,7 @@
 }
 
 
-
-
-
-
+/*workout-container section*/
 
 .workout-container{
     margin: 80px 0;
@@ -243,15 +237,7 @@
 }
 
 
-
-
-
-
-
-
-
-
-
+/*service-container section*/
 
 .service{
     display: flex;
@@ -301,12 +287,7 @@
 }
 
 
-
-
-
-
-
-
+/*footer section*/
 
 .footer-conteiner{
     height: 200px;
