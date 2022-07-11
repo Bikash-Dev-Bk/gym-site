@@ -70,12 +70,18 @@
     font-weight: 700;
 }
 
-.home-button{
+.learn-button{
     background-color: red;
     color: white;
+    border: none;
+    border-radius: 5px;
     font-size: 18px;
     margin-top: 20px;
     padding: 20px 60px;
+}
+
+.learn-button:hover{
+    background-color: blue;
 }
 
 .home-image img{
