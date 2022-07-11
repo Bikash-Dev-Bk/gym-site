@@ -121,15 +121,15 @@
     box-shadow: 5px 5px 5px gray;
 }
 
-.box-description{
-    text-align: justify;
-}
-
 .box:hover{
     transition: .5s;
     border-radius: 10px;
-    margin-top: -10px;
+    margin-top: -5px;
     border: 1px solid rgb(226, 30, 30);
+}
+
+.box-description{
+    text-align: justify;
 }
 
 .box-link{
@@ -264,17 +264,6 @@
     margin: 80px;
     text-align: justify;
     width: 580px;
-}
-
-.batch{
-    position: relative;
-}
-
-.batch-img{
-    width: 70px;
-    position: absolute;
-    top: -30px;
-    left: 300px;
 }
 
 .service-contant{
