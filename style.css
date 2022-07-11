@@ -82,6 +82,11 @@
     padding: 20px 60px;
 }
 
+.home-image img{
+    height: 600px;
+    width: 600px;
+}
+
 
 
 
@@ -192,6 +197,9 @@
     color: white;
     font-size: 16px;
     padding: 20px 45px;
+}
+.about-button:hover{
+    background-color: blue;
 }
 
 
